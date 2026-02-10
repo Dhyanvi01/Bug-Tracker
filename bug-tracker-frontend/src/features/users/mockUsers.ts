@@ -1,0 +1,11 @@
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+}
+
+export const mockUsers: User[] = [
+  { id: "u1", name: "Alice", email: "alice@example.com" },
+  { id: "u2", name: "Bob", email: "bob@example.com" },
+  { id: "u3", name: "Charlie", email: "charlie@example.com" },
+];
